@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link , .navbar-brand {
+  color: #1B3C73;
+}
+
+.bg-kuning {
+  background-color: #F9F07A;
+}
+
+a:hover{
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-custom {
+  background-color: #9195F6;
+  color: black;
+}
+
+.btn-custom:hover {
+  color: black;
+  background-color: #9195F6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: 300;
+}
